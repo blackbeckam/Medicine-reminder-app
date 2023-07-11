@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activities.InsertionActivity">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="40dp"
+       android:layout_gravity="center"
+        android:id="@+id/animation_view"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/medicine" />
+
+
+    <EditText
+        android:id="@+id/etMedName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/custom"
+        android:ems="10"
+        android:hint="Description e.g 1 tablet with water"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/etMedsideeffects"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custom"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:ems="10"
+        android:hint="Enter medicine name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:background="@drawable/custom"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Save Data" />
+
+</LinearLayout>

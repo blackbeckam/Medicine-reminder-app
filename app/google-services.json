@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "5816225985",
+    "project_id": "medicinereminderapplicat-ba20e",
+    "storage_bucket": "medicinereminderapplicat-ba20e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5816225985:android:d18f2b794fbe3daa208440",
+        "android_client_info": {
+          "package_name": "com.example.medicinereminderapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5816225985-5uvg798skrenb6hugpfjsoqlq177qdr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfTydVCLuO8pl7bvblR39jPijagK8b2tI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5816225985-5uvg798skrenb6hugpfjsoqlq177qdr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
